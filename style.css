@@ -166,13 +166,26 @@ a[href^="http"]::after {
 }
 
 ul {
-  background: #3399ff;
-  padding: 20px;
+  line-height: 125%;
+  font-size: 0.925rem; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-type: circle;
 }
 
-
-
-
-
-
-
+nav li {
+  background-image: linear-gradient(to bottom, rgba(128, 40, 66, 0), rgba(205, 205, 205, 1));
+  border: 1px solid rgb(68, 68, 68);
+  border-radius: 5px;
+  padding: 0.85rem 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  filter: drop-shadow(0 0 0.15rem rgba(107, 107, 107, 0.96));
+  list-style-type: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+  
+  nav li a {
+  text-decoration: none;
+}
